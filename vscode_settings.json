@@ -1,0 +1,126 @@
+{
+  "editor.foldingStrategy"                    : "indentation",
+  "editor.fontFamily": "Fira Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.renderWhitespace"                   : "all",
+  "editor.scrollBeyondLastLine"               : true,
+  "editor.tabSize"                            : 2,
+  "editor.multiCursorModifier"                : "ctrlCmd",
+  "editor.snippetSuggestions"                 : "top",
+  "python.linting.pylintEnabled": false,
+  // "editor.formatOnPaste"                      : true,
+  "editor.smoothScrolling"                    : true,
+  "window.smoothScrollingWorkaround"          : true,
+  "editor.detectIndentation"                  : false,
+  "editor.insertSpaces"                       : true,
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  "files.insertFinalNewline"                  : true,
+  "telemetry.enableCrashReporter"             : false,
+  "telemetry.enableTelemetry"                 : false,
+  "workbench.editor.showTabs"                 : true,
+  "workbench.editor.closeEmptyGroup"          : false,
+  "editor.wrappingColumn"                     : 0,
+  "search.exclude"                            : {
+    "*.pyc": true
+  },
+  "files.exclude"                             : {
+    "**/.git"        :  true,
+    "**/.svn"        :  true,
+    "**/.hg"         :  true,
+    "**/CVS"         :  true,
+    "**/.DS_Store"   :  true,
+    "**/*.pyc"       :  true,
+    "**/__pycache__" :  true,
+    "**/.vscode"     :  true
+  },
+  // COLOR SETTINGS
+  "workbench.colorCustomizations": {
+    // TERMINAL
+    // "terminal.foreground": "#00FD61",
+    // "terminal.background": "#151e3d",
+    // EDITOR
+    // "editor.background": "#feffc3f8",
+  },
+  "editor.tokenColorCustomizations": {
+    // "strings"   : "#20bd2d",
+    // "keywords"  : "#12A0FF",
+    // "numbers"   : "#44AA43",
+    // "functions" : "#F76F00",
+    // "variables" : "#1271FF",
+    // "comments"  : "#24bee4c4",
+    "textMateRules": [
+      {
+        "scope"   : [
+          "comment",
+          "keyword",
+          "storage",
+          "constant.language",
+          "support.class.builtin",
+          "entity.name.function",
+        ],
+        "settings": { "fontStyle": "bold"}
+      },
+      {
+        "scope"   : "entity.name.type",
+        "settings": { "fontStyle": "bold underline" }
+      },
+    ]
+  },
+  // TERMINAL SETTINGS
+  "terminal.integrated.fontSize"     :  14,
+  "terminal.explorerKind"            :  "integrated",
+  "terminal.external.osxExec"        :  "iTerm.app",
+  "terminal.integrated.shell.osx"    :  "zsh",
+  "python.terminal.executeInFileDir" :  true,
+  "editor.fontSize"                  :  14,
+  // ALIGNMENT TOOL
+  "alignment.indentBase"      :  "dontchange",
+  "alignment.operatorPadding" :  "right",
+  "alignment.surroundSpace"   :  {
+    "colon"      : [1, 2],
+    "assignment" : [1, 2],
+    "arrow"      : [1, 2],
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.activityBar.visible": true,
+  "terminal.integrated.rendererType": "dom",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.colorTheme": "Cobalt2",
+  "files.associations": {
+    "Dockerfile-s3-prod": "dockerfile"
+  },
+  "liveshare.allowGuestDebugControl": true,
+  "liveshare.allowGuestTaskControl": true,
+  "yaml.schemas": {
+    "file:///Users/i863707/.vscode/extensions/atlassian.atlascode-2.7.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.bitbucket.enabled": false,
+  "yaml.customTags": [
+    "!Equals sequence",
+    "!FindInMap sequence",
+    "!GetAtt",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!Join sequence",
+    "!Ref",
+    "!Select sequence",
+    "!Split sequence",
+    "!Sub"
+  ],
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "aws.telemetry": false,
+  "aws.profile": "profile:default",
+  "gitlens.advanced.messages": {
+    "suppressImproperWorkspaceCasingWarning": true
+  },
+  "window.zoomLevel": 1
+}
