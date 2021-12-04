@@ -42,6 +42,14 @@ alias python='python3'
 ```
 - https://stackoverflow.com/questions/69511006/cant-install-pyenv-3-8-5-on-macos-big-sur-with-m1-chip
 
+#### pip
+- [source](https://www.geeksforgeeks.org/how-to-install-pip-in-macos/)
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
+pip3 version
+```
+
 ## things to install
 - [homebrew](https://docs.brew.sh/Homebrew-on-Linux)
 - [iterm2](https://iterm2.com/downloads.html)
